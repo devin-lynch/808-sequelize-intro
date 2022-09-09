@@ -52,12 +52,12 @@ const userCRUD = async () => {
         // })
         // console.log(numRowsChanged)
         // DESTROY
-        const numRowsDeleted = await db.user.destroy({
-            where: {
-                firstName: 'Weston'
-            }
-        })
-        console.log(numRowsDeleted)
+        // const numRowsDeleted = await db.user.destroy({
+        //     where: {
+        //         firstName: 'Weston'
+        //     }
+        // })
+        // console.log(numRowsDeleted)
     } catch(err) {
         console.warn(err)
     }
